@@ -4,7 +4,7 @@ int main(void) {
 	// your code goes here
 	int index,index2=0;
 	char str[100001],str2[100001];
-	scanf("%s",str);
+	scanf("%[^\n]s ",str);
 	index=strlen(str)-1;	
 	while(index>=0)
 	{
